@@ -73,3 +73,6 @@ Ridge Regression: MAE =
 
 ## Productionization
 In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
