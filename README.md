@@ -1,5 +1,5 @@
 # Data Science Salary Estimator: Project Overview
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
+* Created a tool that estimates data science salaries (MAE ~ $ 13K) to help data scientists negotiate their income when they get a job.
 * Scraped over 1200 job descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
@@ -74,9 +74,9 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 * Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 ## Model performance
-The Random Forest model far outperformed the other approaches on the test and validation sets.
-Random Forest : MAE = 13.80
-Ridge Regression: MAE = 16.11
+* The Random Forest model far outperformed the other approaches on the test and validation sets.
+* Random Forest : MAE = 13.80
+* Ridge Regression: MAE = 16.11
 
 ## Productionization
 In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
