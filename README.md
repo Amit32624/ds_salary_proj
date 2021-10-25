@@ -51,6 +51,10 @@ After scraping the data, I needed to clean it up so that it was usable for model
 
 ## Exploratory data analysis
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+![avg_salary](https://user-images.githubusercontent.com/57942586/138706626-1db269a1-e89e-43f2-9ced-d4ca1b7dc3dc.png)
+![job_location](https://user-images.githubusercontent.com/57942586/138706634-2b6b4069-46a9-4ad3-9f10-e978fd0b1e04.png)
+![heat_map](https://user-images.githubusercontent.com/57942586/138706645-f20cda72-c81e-4173-8fd9-ec346697a048.png)
+
 
 # Model Building
 
@@ -66,6 +70,8 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
+Random Forest : MAE = 13.80
+Ridge Regression: MAE = 16.11
 
 ## Productionization
 In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
