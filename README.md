@@ -67,10 +67,6 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
-Random Forest : MAE =
-Linear Regression: MAE = 
-Ridge Regression: MAE = 
-
 ## Productionization
 In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
 Contributions, issues, and feature requests are welcome!
