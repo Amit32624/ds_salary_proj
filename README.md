@@ -50,10 +50,13 @@ After scraping the data, I needed to clean it up so that it was usable for model
 * Column for description length
 
 ## Exploratory data analysis
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
--- Job opporutinities according to the location
+- I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+
+- Job opporutinities according to the location
+
 ![job_location](https://user-images.githubusercontent.com/57942586/138706634-2b6b4069-46a9-4ad3-9f10-e978fd0b1e04.png)
--- Average salary
+
+- Average salary
 ![avg_salary](https://user-images.githubusercontent.com/57942586/138706626-1db269a1-e89e-43f2-9ced-d4ca1b7dc3dc.png)
 ![heat_map](https://user-images.githubusercontent.com/57942586/138706645-f20cda72-c81e-4173-8fd9-ec346697a048.png)
 
